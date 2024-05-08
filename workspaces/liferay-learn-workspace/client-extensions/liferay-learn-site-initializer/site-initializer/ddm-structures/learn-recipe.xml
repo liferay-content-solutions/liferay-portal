@@ -4,7 +4,333 @@
 	<structure>
 		<definition>
 			<![CDATA[
-				{"availableLanguageIds": ["en_US"], "contentType": "journal", "dataDefinitionFields": [{"customProperties": {"fieldNamespace": "", "visibilityExpression": "", "editorConfig": null, "dataType": "string", "fieldReference": "header"}, "defaultValue": {}, "fieldType": "rich_text", "indexType": "text", "indexable": true, "label": {"en_US": "Header"}, "localizable": true, "name": "RichText54906584", "nestedDataDefinitionFields": [], "readOnly": false, "repeatable": false, "required": false, "showLabel": true, "tip": {"en_US": ""}}, {"customProperties": {"fieldNamespace": "", "requiredErrorMessage": {"en_US": ""}, "visibilityExpression": "", "objectFieldName": "", "editorConfig": null, "dataType": "string", "fieldReference": "introduction"}, "defaultValue": {"en_US": ""}, "fieldType": "rich_text", "indexType": "text", "indexable": true, "label": {"en_US": "Introduction"}, "localizable": true, "name": "RichText17905865", "nestedDataDefinitionFields": [], "readOnly": false, "repeatable": false, "required": false, "showLabel": true, "tip": {"en_US": ""}}, {"customProperties": {"fieldNamespace": "", "visibilityExpression": "", "editorConfig": null, "dataType": "string", "fieldReference": "prerequisites"}, "defaultValue": {}, "fieldType": "rich_text", "indexType": "text", "indexable": true, "label": {"en_US": "Prerequisites"}, "localizable": true, "name": "RichText52477551", "nestedDataDefinitionFields": [], "readOnly": false, "repeatable": false, "required": false, "showLabel": true, "tip": {"en_US": ""}}, {"customProperties": {"fieldNamespace": "", "requiredErrorMessage": {"en_US": ""}, "visibilityExpression": "", "objectFieldName": "", "editorConfig": null, "dataType": "string", "fieldReference": "stepByStep"}, "defaultValue": {"en_US": ""}, "fieldType": "rich_text", "indexType": "text", "indexable": true, "label": {"en_US": "Step-by-Step"}, "localizable": true, "name": "RichText41975816", "nestedDataDefinitionFields": [], "readOnly": false, "repeatable": false, "required": false, "showLabel": true, "tip": {"en_US": ""}}, {"customProperties": {"fieldNamespace": "", "requiredErrorMessage": {"en_US": ""}, "visibilityExpression": "", "objectFieldName": "", "editorConfig": null, "dataType": "string", "fieldReference": "conclusion"}, "defaultValue": {"en_US": ""}, "fieldType": "rich_text", "indexType": "text", "indexable": true, "label": {"en_US": "Conclusion"}, "localizable": true, "name": "RichText97634247", "nestedDataDefinitionFields": [], "readOnly": false, "repeatable": false, "required": false, "showLabel": true, "tip": {"en_US": ""}}, {"customProperties": {"fieldNamespace": "", "requiredErrorMessage": {"en_US": ""}, "visibilityExpression": "", "objectFieldName": "", "editorConfig": null, "dataType": "string", "fieldReference": "tips"}, "defaultValue": {"en_US": ""}, "fieldType": "rich_text", "indexType": "text", "indexable": true, "label": {"en_US": "TIps"}, "localizable": true, "name": "RichText77351667", "nestedDataDefinitionFields": [], "readOnly": false, "repeatable": false, "required": false, "showLabel": true, "tip": {"en_US": ""}}, {"customProperties": {"fieldNamespace": "", "visibilityExpression": "", "labelAtStructureLevel": true, "dataType": "date", "nativeField": false, "fieldReference": "Date75665905"}, "defaultValue": {}, "fieldType": "date", "indexType": "keyword", "indexable": true, "label": {"en_US": "Published Date"}, "localizable": true, "name": "Date75665905", "nestedDataDefinitionFields": [], "readOnly": false, "repeatable": false, "required": false, "showLabel": true, "tip": {"en_US": ""}}], "dataDefinitionKey": "85801", "defaultDataLayout": {"dataLayoutFields": {}, "dataLayoutPages": [{"dataLayoutRows": [{"dataLayoutColumns": [{"columnSize": 12, "fieldNames": ["RichText54906584"]}]}, {"dataLayoutColumns": [{"columnSize": 12, "fieldNames": ["RichText17905865"]}]}, {"dataLayoutColumns": [{"columnSize": 12, "fieldNames": ["RichText52477551"]}]}, {"dataLayoutColumns": [{"columnSize": 12, "fieldNames": ["RichText41975816"]}]}, {"dataLayoutColumns": [{"columnSize": 12, "fieldNames": ["RichText97634247"]}]}, {"dataLayoutColumns": [{"columnSize": 12, "fieldNames": ["RichText77351667"]}]}, {"dataLayoutColumns": [{"columnSize": 12, "fieldNames": ["Date75665905"]}]}], "description": {"en_US": ""}, "title": {"en_US": ""}}], "dataRules": [], "description": {}, "name": {"en_US": "LEARN-RECIPE"}, "paginationMode": "single-page"}, "defaultLanguageId": "en_US", "description": {}, "name": {"en_US": "LEARN-RECIPE"}, "storageType": "default"}
+				{
+					"availableLanguageIds": [
+						"en_US"
+					],
+					"contentType": "journal",
+					"dataDefinitionFields": [
+						{
+							"customProperties": {
+								"dataType": "string",
+								"editorConfig": null,
+								"fieldNamespace": "",
+								"fieldReference": "header",
+								"visibilityExpression": ""
+							},
+							"defaultValue": {
+							},
+							"fieldType": "rich_text",
+							"indexType": "text",
+							"indexable": true,
+							"label": {
+								"en_US": "Header"
+							},
+							"localizable": true,
+							"name": "RichText54906584",
+							"nestedDataDefinitionFields": [
+							],
+							"readOnly": false,
+							"repeatable": false,
+							"required": false,
+							"showLabel": true,
+							"tip": {
+								"en_US": ""
+							}
+						},
+						{
+							"customProperties": {
+								"dataType": "string",
+								"editorConfig": null,
+								"fieldNamespace": "",
+								"fieldReference": "introduction",
+								"objectFieldName": "",
+								"requiredErrorMessage": {
+									"en_US": ""
+								},
+								"visibilityExpression": ""
+							},
+							"defaultValue": {
+								"en_US": ""
+							},
+							"fieldType": "rich_text",
+							"indexType": "text",
+							"indexable": true,
+							"label": {
+								"en_US": "Introduction"
+							},
+							"localizable": true,
+							"name": "RichText17905865",
+							"nestedDataDefinitionFields": [
+							],
+							"readOnly": false,
+							"repeatable": false,
+							"required": false,
+							"showLabel": true,
+							"tip": {
+								"en_US": ""
+							}
+						},
+						{
+							"customProperties": {
+								"dataType": "string",
+								"editorConfig": null,
+								"fieldNamespace": "",
+								"fieldReference": "prerequisites",
+								"visibilityExpression": ""
+							},
+							"defaultValue": {
+							},
+							"fieldType": "rich_text",
+							"indexType": "text",
+							"indexable": true,
+							"label": {
+								"en_US": "Prerequisites"
+							},
+							"localizable": true,
+							"name": "RichText52477551",
+							"nestedDataDefinitionFields": [
+							],
+							"readOnly": false,
+							"repeatable": false,
+							"required": false,
+							"showLabel": true,
+							"tip": {
+								"en_US": ""
+							}
+						},
+						{
+							"customProperties": {
+								"dataType": "string",
+								"editorConfig": null,
+								"fieldNamespace": "",
+								"fieldReference": "stepByStep",
+								"objectFieldName": "",
+								"requiredErrorMessage": {
+									"en_US": ""
+								},
+								"visibilityExpression": ""
+							},
+							"defaultValue": {
+								"en_US": ""
+							},
+							"fieldType": "rich_text",
+							"indexType": "text",
+							"indexable": true,
+							"label": {
+								"en_US": "Step-by-Step"
+							},
+							"localizable": true,
+							"name": "RichText41975816",
+							"nestedDataDefinitionFields": [
+							],
+							"readOnly": false,
+							"repeatable": false,
+							"required": false,
+							"showLabel": true,
+							"tip": {
+								"en_US": ""
+							}
+						},
+						{
+							"customProperties": {
+								"dataType": "string",
+								"editorConfig": null,
+								"fieldNamespace": "",
+								"fieldReference": "conclusion",
+								"objectFieldName": "",
+								"requiredErrorMessage": {
+									"en_US": ""
+								},
+								"visibilityExpression": ""
+							},
+							"defaultValue": {
+								"en_US": ""
+							},
+							"fieldType": "rich_text",
+							"indexType": "text",
+							"indexable": true,
+							"label": {
+								"en_US": "Conclusion"
+							},
+							"localizable": true,
+							"name": "RichText97634247",
+							"nestedDataDefinitionFields": [
+							],
+							"readOnly": false,
+							"repeatable": false,
+							"required": false,
+							"showLabel": true,
+							"tip": {
+								"en_US": ""
+							}
+						},
+						{
+							"customProperties": {
+								"dataType": "string",
+								"editorConfig": null,
+								"fieldNamespace": "",
+								"fieldReference": "tips",
+								"objectFieldName": "",
+								"requiredErrorMessage": {
+									"en_US": ""
+								},
+								"visibilityExpression": ""
+							},
+							"defaultValue": {
+								"en_US": ""
+							},
+							"fieldType": "rich_text",
+							"indexType": "text",
+							"indexable": true,
+							"label": {
+								"en_US": "TIps"
+							},
+							"localizable": true,
+							"name": "RichText77351667",
+							"nestedDataDefinitionFields": [
+							],
+							"readOnly": false,
+							"repeatable": false,
+							"required": false,
+							"showLabel": true,
+							"tip": {
+								"en_US": ""
+							}
+						},
+						{
+							"customProperties": {
+								"dataType": "date",
+								"fieldNamespace": "",
+								"fieldReference": "Date75665905",
+								"labelAtStructureLevel": true,
+								"nativeField": false,
+								"visibilityExpression": ""
+							},
+							"defaultValue": {
+							},
+							"fieldType": "date",
+							"indexType": "keyword",
+							"indexable": true,
+							"label": {
+								"en_US": "Published Date"
+							},
+							"localizable": true,
+							"name": "Date75665905",
+							"nestedDataDefinitionFields": [
+							],
+							"readOnly": false,
+							"repeatable": false,
+							"required": false,
+							"showLabel": true,
+							"tip": {
+								"en_US": ""
+							}
+						}
+					],
+					"dataDefinitionKey": "85801",
+					"defaultDataLayout": {
+						"dataLayoutFields": {
+						},
+						"dataLayoutPages": [
+							{
+								"dataLayoutRows": [
+									{
+										"dataLayoutColumns": [
+											{
+												"columnSize": 12,
+												"fieldNames": [
+													"RichText54906584"
+												]
+											}
+										]
+									},
+									{
+										"dataLayoutColumns": [
+											{
+												"columnSize": 12,
+												"fieldNames": [
+													"RichText17905865"
+												]
+											}
+										]
+									},
+									{
+										"dataLayoutColumns": [
+											{
+												"columnSize": 12,
+												"fieldNames": [
+													"RichText52477551"
+												]
+											}
+										]
+									},
+									{
+										"dataLayoutColumns": [
+											{
+												"columnSize": 12,
+												"fieldNames": [
+													"RichText41975816"
+												]
+											}
+										]
+									},
+									{
+										"dataLayoutColumns": [
+											{
+												"columnSize": 12,
+												"fieldNames": [
+													"RichText97634247"
+												]
+											}
+										]
+									},
+									{
+										"dataLayoutColumns": [
+											{
+												"columnSize": 12,
+												"fieldNames": [
+													"RichText77351667"
+												]
+											}
+										]
+									},
+									{
+										"dataLayoutColumns": [
+											{
+												"columnSize": 12,
+												"fieldNames": [
+													"Date75665905"
+												]
+											}
+										]
+									}
+								],
+								"description": {
+									"en_US": ""
+								},
+								"title": {
+									"en_US": ""
+								}
+							}
+						],
+						"dataRules": [
+						],
+						"description": {
+						},
+						"name": {
+							"en_US": "LEARN-RECIPE"
+						},
+						"paginationMode": "single-page"
+					},
+					"defaultLanguageId": "en_US",
+					"description": {
+					},
+					"name": {
+						"en_US": "LEARN-RECIPE"
+					},
+					"storageType": "default"
+				}
 			]]>
 		</definition>
 		<name>LEARN-RECIPE</name>

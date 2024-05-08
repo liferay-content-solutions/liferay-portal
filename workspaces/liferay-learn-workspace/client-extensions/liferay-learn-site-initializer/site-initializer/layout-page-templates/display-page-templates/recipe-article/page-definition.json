@@ -22,7 +22,9 @@
 		{
 			"definition": {
 				"customCSS": ".[$FRAGMENT_CLASS$] {\njustify-content:space-between;\n}",
-				"fragmentStyle": {"marginBottom": "3"},
+				"fragmentStyle": {
+					"marginBottom": "3"
+				},
 				"indexed": true,
 				"layout": {
 					"contentDisplay": "FlexRow",
@@ -38,12 +40,12 @@
 						"widgetInstance": {
 							"widgetConfig": {
 								"displayStyle": "ddmTemplate_BREADCRUMB-HORIZONTAL-FTL",
-								"showCurrentGroup": "true",
-								"showLayout": "true",
-								"showPortletBreadcrumb": "true",
-								"showParentGroups": "true",
 								"displayStyleGroupId": "20119",
-								"showGuestGroup": "false"
+								"showCurrentGroup": "true",
+								"showGuestGroup": "false",
+								"showLayout": "true",
+								"showParentGroups": "true",
+								"showPortletBreadcrumb": "true"
 							},
 							"widgetName": "com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet"
 						}
@@ -53,11 +55,13 @@
 				},
 				{
 					"definition": {
-						"fragment": {"key": "BASIC_COMPONENT-button"},
+						"fragment": {
+							"key": "BASIC_COMPONENT-button"
+						},
 						"fragmentConfig": {
+							"buttonSize": "nm",
 							"buttonType": "link",
-							"type": "link",
-							"buttonSize": "nm"
+							"type": "link"
 						},
 						"fragmentFields": [
 							{
@@ -80,7 +84,9 @@
 								}
 							}
 						],
-						"fragmentStyle": {"fontWeight": "fontWeightBold"},
+						"fragmentStyle": {
+							"fontWeight": "fontWeightBold"
+						},
 						"indexed": true
 					},
 					"id": "ef9dde1e-0eaa-2bcd-8029-e8ef127da037",
@@ -92,16 +98,23 @@
 		{
 			"definition": {
 				"indexed": true,
-				"layout": {"contentDisplay": "FlexRow", "widthType": "Fixed"},
+				"layout": {
+					"contentDisplay": "FlexRow",
+					"widthType": "Fixed"
+				},
 				"name": "Main Container"
 			},
 			"id": "f33f0319-bf65-a3f2-9719-8d72f542e339",
 			"pageElements": [
 				{
 					"definition": {
-						"fragmentStyle": {"marginRight": "4"},
+						"fragmentStyle": {
+							"marginRight": "4"
+						},
 						"indexed": true,
-						"layout": {"marginRight": 2},
+						"layout": {
+							"marginRight": 2
+						},
 						"name": "Content Container"
 					},
 					"id": "7a80c225-04f3-07ad-3455-b614b9703029",
@@ -130,7 +143,9 @@
 									"definition": {
 										"customCSS": ".[$FRAGMENT_CLASS$] {\njustify-content: space-between;\n}",
 										"indexed": true,
-										"layout": {"contentDisplay": "FlexRow"},
+										"layout": {
+											"contentDisplay": "FlexRow"
+										},
 										"name": "Container"
 									},
 									"id": "73560a6e-9b0f-d67e-2049-fda40015c9d3",
@@ -192,7 +207,8 @@
 														"fragment": {
 															"key": "BASIC_COMPONENT-html"
 														},
-														"fragmentConfig": {},
+														"fragmentConfig": {
+														},
 														"fragmentFields": [
 															{
 																"id": "element-html",
@@ -227,7 +243,8 @@
 										"fragment": {
 											"key": "BASIC_COMPONENT-html"
 										},
-										"fragmentConfig": {},
+										"fragmentConfig": {
+										},
 										"fragmentFields": [
 											{
 												"id": "element-html",
@@ -258,8 +275,11 @@
 						},
 						{
 							"definition": {
-								"fragment": {"key": "BASIC_COMPONENT-html"},
-								"fragmentConfig": {},
+								"fragment": {
+									"key": "BASIC_COMPONENT-html"
+								},
+								"fragmentConfig": {
+								},
 								"fragmentFields": [
 									{
 										"id": "element-html",
@@ -288,8 +308,11 @@
 						},
 						{
 							"definition": {
-								"fragment": {"key": "BASIC_COMPONENT-html"},
-								"fragmentConfig": {},
+								"fragment": {
+									"key": "BASIC_COMPONENT-html"
+								},
+								"fragmentConfig": {
+								},
 								"fragmentFields": [
 									{
 										"id": "element-html",
@@ -318,8 +341,11 @@
 						},
 						{
 							"definition": {
-								"fragment": {"key": "BASIC_COMPONENT-html"},
-								"fragmentConfig": {},
+								"fragment": {
+									"key": "BASIC_COMPONENT-html"
+								},
+								"fragmentConfig": {
+								},
 								"fragmentFields": [
 									{
 										"id": "element-html",
@@ -348,8 +374,11 @@
 						},
 						{
 							"definition": {
-								"fragment": {"key": "BASIC_COMPONENT-html"},
-								"fragmentConfig": {},
+								"fragment": {
+									"key": "BASIC_COMPONENT-html"
+								},
+								"fragmentConfig": {
+								},
 								"fragmentFields": [
 									{
 										"id": "element-html",
@@ -378,8 +407,11 @@
 						},
 						{
 							"definition": {
-								"fragment": {"key": "BASIC_COMPONENT-html"},
-								"fragmentConfig": {},
+								"fragment": {
+									"key": "BASIC_COMPONENT-html"
+								},
+								"fragmentConfig": {
+								},
 								"fragmentFields": [
 									{
 										"id": "element-html",
@@ -412,7 +444,8 @@
 				{
 					"definition": {
 						"indexed": true,
-						"layout": {},
+						"layout": {
+						},
 						"name": "Menu Container"
 					},
 					"id": "63cb77fe-c96e-ac6c-d113-ff836a96f808",
@@ -445,7 +478,8 @@
 								{
 									"definition": {
 										"indexed": true,
-										"layout": {}
+										"layout": {
+										}
 									},
 									"id": "9ccaa5dc-b9b1-7362-0427-db028be3ac6a",
 									"pageElements": [
@@ -463,7 +497,8 @@
 													{
 														"id": "element-text",
 														"value": {
-															"fragmentLink": {},
+															"fragmentLink": {
+															},
 															"text": {
 																"value_i18n": {
 																	"en_US": "Recipe"
@@ -490,7 +525,8 @@
 								{
 									"definition": {
 										"indexed": true,
-										"layout": {}
+										"layout": {
+										}
 									},
 									"id": "6f7d79b5-8075-91cd-c5f3-7652636e3f3a",
 									"pageElements": [
@@ -508,7 +544,8 @@
 													{
 														"id": "element-text",
 														"value": {
-															"fragmentLink": {},
+															"fragmentLink": {
+															},
 															"text": {
 																"value_i18n": {
 																	"en_US": "12 minutes&nbsp;"
@@ -567,9 +604,9 @@
 											"key": "BASIC_COMPONENT-button"
 										},
 										"fragmentConfig": {
+											"buttonSize": "nm",
 											"buttonType": "link",
-											"type": "link",
-											"buttonSize": "nm"
+											"type": "link"
 										},
 										"fragmentFields": [
 											{
@@ -603,9 +640,9 @@
 											"key": "BASIC_COMPONENT-button"
 										},
 										"fragmentConfig": {
+											"buttonSize": "nm",
 											"buttonType": "link",
-											"type": "link",
-											"buttonSize": "nm"
+											"type": "link"
 										},
 										"fragmentFields": [
 											{
@@ -639,9 +676,9 @@
 											"key": "BASIC_COMPONENT-button"
 										},
 										"fragmentConfig": {
+											"buttonSize": "nm",
 											"buttonType": "link",
-											"type": "link",
-											"buttonSize": "nm"
+											"type": "link"
 										},
 										"fragmentFields": [
 											{
@@ -675,9 +712,9 @@
 											"key": "BASIC_COMPONENT-button"
 										},
 										"fragmentConfig": {
+											"buttonSize": "nm",
 											"buttonType": "link",
-											"type": "link",
-											"buttonSize": "nm"
+											"type": "link"
 										},
 										"fragmentFields": [
 											{
@@ -711,9 +748,9 @@
 											"key": "BASIC_COMPONENT-button"
 										},
 										"fragmentConfig": {
+											"buttonSize": "nm",
 											"buttonType": "link",
-											"type": "link",
-											"buttonSize": "nm"
+											"type": "link"
 										},
 										"fragmentFields": [
 											{
@@ -784,7 +821,8 @@
 											{
 												"id": "element-text",
 												"value": {
-													"fragmentLink": {},
+													"fragmentLink": {
+													},
 													"text": {
 														"value_i18n": {
 															"en_US": "Deployment Approach"
@@ -816,7 +854,8 @@
 											{
 												"id": "element-text",
 												"value": {
-													"fragmentLink": {},
+													"fragmentLink": {
+													},
 													"text": {
 														"value_i18n": {
 															"en_US": "Applicable Versions"

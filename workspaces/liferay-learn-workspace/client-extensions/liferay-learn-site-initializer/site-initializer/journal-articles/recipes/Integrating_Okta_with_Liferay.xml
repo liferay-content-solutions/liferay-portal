@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
+
 <root available-locales="en_US" default-locale="en_US" version="1.0">
 	<dynamic-element field-reference="header" index-type="text" instance-id="cB2DSzfe" name="RichText54906584" type="rich_text">
 		<dynamic-content language-id="en_US"><![CDATA[<h1>Integrating Okta with Liferay</h1>
-
 <p><br />
 <em>While we make every effort to ensure this Solution Tutorials is accurate, it may not always reflect the most recent updates or official guidelines. We appreciate your understanding and encourage you to reach out with any feedback or concerns.</em></p>]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element field-reference="introduction" index-type="text" instance-id="raojn1hF" name="RichText17905865" type="rich_text">
 		<dynamic-content language-id="en_US"><![CDATA[<h2 id="introduction">Introduction</h2>
-
 <h3><br />
 Topic 1</h3>
 
@@ -16,13 +15,11 @@ Topic 1</h3>
 Duis placerat, risus eget ornare ultrices, lorem mauris tempor nunc, sed aliquam diam metus quis velit. Donec aliquam eu sem ac eleifend. Donec condimentum sagittis semper. Sed blandit ipsum id varius sollicitudin. Aenean semper enim eget pellentesque sodales. Ut suscipit ullamcorper suscipit.</p>
 
 <h3>Topic 2</h3>
-
 <p><br />
 Duis placerat, risus eget ornare ultrices, lorem mauris tempor nunc, sed aliquam diam metus quis velit. Donec aliquam eu sem ac eleifend. Donec condimentum sagittis semper. Sed blandit ipsum id varius sollicitudin. Aenean semper enim eget pellentesque sodales. Ut suscipit ullamcorper suscipit.</p>]]></dynamic-content>
 	</dynamic-element>
 	<dynamic-element field-reference="prerequisites" index-type="text" instance-id="3VKGnJS9" name="RichText52477551" type="rich_text">
 		<dynamic-content language-id="en_US"><![CDATA[<h2 id="introduction">Prerequisites</h2>
-
 <h3><br />
 Topic 1</h3>
 
@@ -37,7 +34,6 @@ Quisque at nisi sed est ullamcorper consectetur et vitae nibh. Sed nec nunc magn
 	</dynamic-element>
 	<dynamic-element field-reference="stepByStep" index-type="text" instance-id="ABb5rjXR" name="RichText41975816" type="rich_text">
 		<dynamic-content language-id="en_US"><![CDATA[<h2 id="step-by-step">Step-by-step</h2>
-
 <h3><br />
 Topic 1</h3>
 
@@ -52,7 +48,6 @@ Quisque at nisi sed est ullamcorper consectetur et vitae nibh. Sed nec nunc magn
 	</dynamic-element>
 	<dynamic-element field-reference="conclusion" index-type="text" instance-id="e2DlgoYj" name="RichText97634247" type="rich_text">
 		<dynamic-content language-id="en_US"><![CDATA[<h2 id="conclusion">Conclusion/Summary</h2>
-
 <h3><br />
 Topic 1</h3>
 
@@ -61,7 +56,6 @@ Nulla bibendum dolor diam, ac pretium justo eleifend a. Proin eu vehicula magna,
 	</dynamic-element>
 	<dynamic-element field-reference="tips" index-type="text" instance-id="ifuGGRXT" name="RichText77351667" type="rich_text">
 		<dynamic-content language-id="en_US"><![CDATA[<h2 id="tips">Tips/Troubleshooting</h2>
-
 <h3><br />
 Topic 1</h3>
 
