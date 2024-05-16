@@ -1,8 +1,8 @@
 .nav-segment {
-	border: none;
 	background-color: var(--color-neutral-1, #f7f7f8);
-	height: 3rem;
+	border: none;
 	border-radius: 0.4rem;
+	height: 3rem;
 }
 
 .nav-segment .nav-link.active {
@@ -13,11 +13,11 @@
 }
 
 .nav-segment .nav-link {
-	color: var(--color-neutral-10, #282934);
 	border-radius: 0.25rem;
+	color: var(--color-neutral-10, #282934);
 	font-family: var(--font-family-sans-serif);
-	padding-top: 0;
-	padding-bottom: 0;
 	height: 2.5rem;
 	opacity: 0.8;
+	padding-bottom: 0;
+	padding-top: 0;
 }

@@ -1,34 +1,34 @@
 <div class="[#if (configuration.tabDirection == 'nav-vertical')]align-items-md-start d-md-flex[/#if]">
-    <nav class="navbar navbar-expand-md p-0">
-        <div class="d-none d-md-none nav nav-segment nav-active-bar-top">
-            <button aria-controls="navigationBarCollapse-wrxb" aria-expanded="false" aria-label="Tabs Toggle Navigation" class="active collapsed nav-link navbar-toggler navbar-toggler-link" data-toggle="collapse">
-                <span class="navbar-text-truncate" data-lfr-editable-id="mobile-title" data-lfr-editable-type="text">Browse By</span>
-                <svg class="lexicon-icon lexicon-icon-caret-bottom" role="presentation" viewBox="0 0 512 512">
-                    <use xlink:href="http://localhost:8080/o/dialect-theme/images/clay/icons.svg#caret-bottom"></use>
-                </svg>
-            </button>
-        </div>
-        <div class="bg-white navbar-collapse p-0 d-flex justify-content-center" id="navigationBarCollapse-wrxb">
-            <ul class="navbar-nav nav nav-segment nav-active-bar-top d-flex justify-content-center" role="tablist">
-                <li class="nav-item">
-                    <button aria-controls="tabPanel1-wrxb" aria-selected="true" class="nav-link navbar-text-truncate w-100 active" data-fragment-namespace="wrxb" id="tab1-wrxb" role="tab">
-                        <span data-lfr-editable-id="title1" data-lfr-editable-type="text" data-lfr-priority="1" tabindex="-1">Browse By Capability</span>
-                    </button>
-                </li>
-                <li class="nav-item">
-                    <button aria-controls="tabPanel2-wrxb" aria-selected="false" class="nav-link navbar-text-truncate w-100" data-fragment-namespace="wrxb" id="tab2-wrxb" role="tab">
-                        <span data-lfr-editable-id="title2" data-lfr-editable-type="text" data-lfr-priority="2" tabindex="-1">Browse By Product</span>
-                    </button>
-                </li>
-            </ul>
-        </div>
-    </nav>
+<nav class="navbar navbar-expand-md p-0">
+<div class="d-md-none d-none nav nav-active-bar-top nav-segment">
+			<button aria-controls="navigationBarCollapse-wrxb" aria-expanded="false" aria-label="Tabs Toggle Navigation" class="active collapsed nav-link navbar-toggler navbar-toggler-link" data-toggle="collapse">
+				<span class="navbar-text-truncate" data-lfr-editable-id="mobile-title" data-lfr-editable-type="text">Browse By</span>
+<svg class="lexicon-icon lexicon-icon-caret-bottom" role="presentation" viewBox="0 0 512 512">
+<use xlink:href="http://localhost:8080/o/dialect-theme/images/clay/icons.svg#caret-bottom"></use>
+				</svg>
+			</button>
+		</div>
+<div class="bg-white d-flex justify-content-center navbar-collapse p-0" id="navigationBarCollapse-wrxb">
+<ul class="d-flex justify-content-center nav nav-active-bar-top nav-segment navbar-nav" role="tablist">
+<li class="nav-item">
+					<button aria-controls="tabPanel1-wrxb" aria-selected="true" class="nav-link navbar-text-truncate w-100 active" data-fragment-namespace="wrxb" id="tab1-wrxb" role="tab">
+						<span data-lfr-editable-id="title1" data-lfr-editable-type="text" data-lfr-priority="1" tabindex="-1">Browse By Capability</span>
+					</button>
+				</li>
+<li class="nav-item">
+					<button aria-controls="tabPanel2-wrxb" aria-selected="false" class="nav-link navbar-text-truncate w-100" data-fragment-namespace="wrxb" id="tab2-wrxb" role="tab">
+						<span data-lfr-editable-id="title2" data-lfr-editable-type="text" data-lfr-priority="2" tabindex="-1">Browse By Product</span>
+					</button>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
-    <div class="h-100 tab-panel w-100">
-        [#list 0..configuration.numberOfTabs-1 as i]
-            <div aria-labelledby="tab${i+1}-${fragmentEntryLinkNamespace}" class="d-none tab-panel-item" data-fragment-namespace="${fragmentEntryLinkNamespace}" id="tabPanel${i+1}-${fragmentEntryLinkNamespace}" role="tabpanel" tabindex="0">
-                <lfr-drop-zone data-lfr-drop-zone-id="${i+1}" data-lfr-priority="${i+1}" />
-            </div>
-        [/#list]
-    </div>
+<div class="h-100 tab-panel w-100">
+		[#list 0..configuration.numberOfTabs-1 as i]
+			<div aria-labelledby="tab${i+1}-${fragmentEntryLinkNamespace}" class="d-none tab-panel-item" data-fragment-namespace="${fragmentEntryLinkNamespace}" id="tabPanel${i+1}-${fragmentEntryLinkNamespace}" role="tabpanel" tabindex="0">
+				<lfr-drop-zone data-lfr-drop-zone-id="${i+1}" data-lfr-priority="${i+1}" />
+			</div>
+		[/#list]
+	</div>
 </div>
