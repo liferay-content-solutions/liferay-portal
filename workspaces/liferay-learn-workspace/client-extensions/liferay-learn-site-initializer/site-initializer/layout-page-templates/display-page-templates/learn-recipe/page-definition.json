@@ -242,7 +242,11 @@
 																			"id": "element-html",
 																			"value": {
 																				"html": {
-																					"value_i18n": {
+																					"mapping": {
+																						"fieldKey": "JournalArticle_publishDate",
+																						"itemReference": {
+																							"contextSource": "DisplayPageItem"
+																						}
 																					}
 																				}
 																			}
@@ -274,7 +278,11 @@
 															"id": "element-html",
 															"value": {
 																"html": {
-																	"value_i18n": {
+																	"mapping": {
+																		"fieldKey": "JournalArticle_title",
+																		"itemReference": {
+																			"contextSource": "DisplayPageItem"
+																		}
 																	}
 																}
 															}
@@ -338,7 +346,11 @@
 													"id": "element-html",
 													"value": {
 														"html": {
-															"value_i18n": {
+															"mapping": {
+																"fieldKey": "DDMStructure_introduction",
+																"itemReference": {
+																	"contextSource": "DisplayPageItem"
+																}
 															}
 														}
 													}
@@ -367,7 +379,11 @@
 													"id": "element-html",
 													"value": {
 														"html": {
-															"value_i18n": {
+															"mapping": {
+																"fieldKey": "DDMStructure_prerequisites",
+																"itemReference": {
+																	"contextSource": "DisplayPageItem"
+																}
 															}
 														}
 													}
@@ -396,7 +412,11 @@
 													"id": "element-html",
 													"value": {
 														"html": {
-															"value_i18n": {
+															"mapping": {
+																"fieldKey": "DDMStructure_stepByStep",
+																"itemReference": {
+																	"contextSource": "DisplayPageItem"
+																}
 															}
 														}
 													}
@@ -425,7 +445,11 @@
 													"id": "element-html",
 													"value": {
 														"html": {
-															"value_i18n": {
+															"mapping": {
+																"fieldKey": "DDMStructure_conclusion",
+																"itemReference": {
+																	"contextSource": "DisplayPageItem"
+																}
 															}
 														}
 													}
@@ -454,7 +478,11 @@
 													"id": "element-html",
 													"value": {
 														"html": {
-															"value_i18n": {
+															"mapping": {
+																"fieldKey": "DDMStructure_tips",
+																"itemReference": {
+																	"contextSource": "DisplayPageItem"
+																}
 															}
 														}
 													}
@@ -721,7 +749,11 @@
 																			"id": "element-html",
 																			"value": {
 																				"html": {
-																					"value_i18n": {
+																					"mapping": {
+																						"fieldKey": "DDMStructure_timeToFinish",
+																						"itemReference": {
+																							"contextSource": "DisplayPageItem"
+																						}
 																					}
 																				}
 																			}
