@@ -1,0 +1,407 @@
+{
+	"availableLanguageIds": [
+		"en_US"
+	],
+	"contentType": "journal",
+	"dataDefinitionFields": [
+		{
+			"customProperties": {
+				"dataType": "string",
+				"editorConfig": null,
+				"fieldNamespace": "null",
+				"fieldReference": "content",
+				"visibilityExpression": "null"
+			},
+			"defaultValue": {
+			},
+			"fieldType": "rich_text",
+			"indexType": "text",
+			"indexable": true,
+			"label": {
+				"en_US": "Content"
+			},
+			"localizable": true,
+			"name": "content",
+			"nestedDataDefinitionFields": [
+			],
+			"readOnly": false,
+			"repeatable": false,
+			"required": true,
+			"showLabel": true,
+			"tip": {
+				"en_US": ""
+			}
+		},
+		{
+			"customProperties": {
+				"autocomplete": false,
+				"confirmationErrorMessage": {
+					"en_US": ""
+				},
+				"confirmationLabel": {
+					"en_US": ""
+				},
+				"dataSourceType": "",
+				"dataType": "string",
+				"ddmDataProviderInstanceId": [
+				],
+				"ddmDataProviderInstanceOutput": [
+				],
+				"direction": [
+				],
+				"displayStyle": "multiline",
+				"fieldNamespace": "",
+				"fieldReference": "navigation",
+				"hideField": false,
+				"labelAtStructureLevel": false,
+				"nativeField": false,
+				"options": {
+				},
+				"placeholder": {
+					"en_US": ""
+				},
+				"requireConfirmation": false,
+				"tooltip": {
+					"en_US": ""
+				},
+				"visibilityExpression": ""
+			},
+			"defaultValue": {
+			},
+			"fieldType": "text",
+			"indexType": "none",
+			"indexable": true,
+			"label": {
+				"en_US": "Navigation"
+			},
+			"localizable": false,
+			"name": "navigation",
+			"nestedDataDefinitionFields": [
+			],
+			"readOnly": false,
+			"repeatable": false,
+			"required": false,
+			"showLabel": true,
+			"tip": {
+				"en_US": ""
+			}
+		},
+		{
+			"customProperties": {
+				"autocomplete": false,
+				"confirmationErrorMessage": {
+					"en_US": ""
+				},
+				"confirmationLabel": {
+					"en_US": ""
+				},
+				"dataSourceType": "",
+				"dataType": "string",
+				"ddmDataProviderInstanceId": [
+				],
+				"ddmDataProviderInstanceOutput": [
+				],
+				"direction": [
+					"vertical"
+				],
+				"displayStyle": "singleline",
+				"fieldNamespace": "",
+				"fieldReference": "timeToComplete",
+				"hideField": false,
+				"labelAtStructureLevel": true,
+				"nativeField": false,
+				"options": {
+				},
+				"placeholder": {
+					"en_US": ""
+				},
+				"requireConfirmation": false,
+				"tooltip": {
+					"en_US": ""
+				},
+				"visibilityExpression": ""
+			},
+			"defaultValue": {
+			},
+			"fieldType": "text",
+			"indexType": "keyword",
+			"indexable": true,
+			"label": {
+				"en_US": "Time to Complete (in minutes)"
+			},
+			"localizable": true,
+			"name": "Text82072267",
+			"nestedDataDefinitionFields": [
+			],
+			"readOnly": false,
+			"repeatable": false,
+			"required": true,
+			"showLabel": true,
+			"tip": {
+				"en_US": ""
+			}
+		},
+		{
+			"customProperties": {
+				"alphabeticalOrder": false,
+				"dataSourceType": [
+					"manual"
+				],
+				"dataType": "string",
+				"ddmDataProviderInstanceId": [
+				],
+				"ddmDataProviderInstanceOutput": [
+				],
+				"fieldNamespace": "",
+				"fieldReference": "personas",
+				"labelAtStructureLevel": true,
+				"multiple": true,
+				"nativeField": false,
+				"options": {
+					"en_US": [
+						{
+							"label": "Practitioner",
+							"reference": "pacticioner",
+							"value": "Option67573746"
+						},
+						{
+							"label": "Sales",
+							"reference": "sales",
+							"value": "Option37843532"
+						},
+						{
+							"label": "Developer",
+							"reference": "developer",
+							"value": "Option68525200"
+						},
+						{
+							"label": "Architect",
+							"reference": "architect",
+							"value": "Option12124726"
+						},
+						{
+							"label": "Cloud Architect",
+							"reference": "cloudArchitect",
+							"value": "Option69830994"
+						},
+						{
+							"label": "Administrator",
+							"reference": "administrator",
+							"value": "Option50996154"
+						},
+						{
+							"label": "Internal employees",
+							"reference": "internalEmployees",
+							"value": "Option54010146"
+						},
+						{
+							"label": "Partners",
+							"reference": "partners",
+							"value": "Option04861517"
+						}
+					]
+				},
+				"visibilityExpression": ""
+			},
+			"defaultValue": {
+			},
+			"fieldType": "select",
+			"indexType": "keyword",
+			"indexable": true,
+			"label": {
+				"en_US": "Personas"
+			},
+			"localizable": true,
+			"name": "Select78186970",
+			"nestedDataDefinitionFields": [
+			],
+			"readOnly": false,
+			"repeatable": false,
+			"required": true,
+			"showLabel": true,
+			"tip": {
+				"en_US": ""
+			}
+		},
+		{
+			"customProperties": {
+				"alphabeticalOrder": false,
+				"dataSourceType": [
+					"manual"
+				],
+				"dataType": "string",
+				"ddmDataProviderInstanceId": [
+				],
+				"ddmDataProviderInstanceOutput": [
+				],
+				"fieldNamespace": "",
+				"fieldReference": "Select23746521",
+				"labelAtStructureLevel": true,
+				"multiple": false,
+				"nativeField": false,
+				"options": {
+					"en_US": [
+						{
+							"label": "Beginner",
+							"reference": "beginner",
+							"value": "Option67573746"
+						},
+						{
+							"label": "Intermediate",
+							"reference": "intermediate",
+							"value": "Option38756196"
+						},
+						{
+							"label": "Expert",
+							"reference": "expert",
+							"value": "Option95646231"
+						}
+					]
+				},
+				"visibilityExpression": ""
+			},
+			"defaultValue": {
+			},
+			"fieldType": "select",
+			"indexType": "keyword",
+			"indexable": true,
+			"label": {
+				"en_US": "Expertise"
+			},
+			"localizable": true,
+			"name": "Select23746521",
+			"nestedDataDefinitionFields": [
+			],
+			"readOnly": false,
+			"repeatable": false,
+			"required": true,
+			"showLabel": true,
+			"tip": {
+				"en_US": ""
+			}
+		},
+		{
+			"customProperties": {
+				"dataType": "boolean",
+				"fieldNamespace": "",
+				"fieldReference": "Checkbox48797627",
+				"labelAtStructureLevel": true,
+				"options": {
+				},
+				"showAsSwitcher": true,
+				"visibilityExpression": ""
+			},
+			"defaultValue": {
+			},
+			"fieldType": "checkbox",
+			"indexType": "keyword",
+			"indexable": true,
+			"label": {
+				"en_US": "Is Gated"
+			},
+			"localizable": true,
+			"name": "Checkbox48797627",
+			"nestedDataDefinitionFields": [
+			],
+			"readOnly": false,
+			"repeatable": false,
+			"required": false,
+			"showLabel": true,
+			"tip": {
+				"en_US": ""
+			}
+		}
+	],
+	"dataDefinitionKey": "LEARN-COURSE",
+	"defaultDataLayout": {
+		"dataLayoutFields": {
+		},
+		"dataLayoutPages": [
+			{
+				"dataLayoutRows": [
+					{
+						"dataLayoutColumns": [
+							{
+								"columnSize": 12,
+								"fieldNames": [
+									"content"
+								]
+							}
+						]
+					},
+					{
+						"dataLayoutColumns": [
+							{
+								"columnSize": 12,
+								"fieldNames": [
+									"navigation"
+								]
+							}
+						]
+					},
+					{
+						"dataLayoutColumns": [
+							{
+								"columnSize": 12,
+								"fieldNames": [
+									"Text82072267"
+								]
+							}
+						]
+					},
+					{
+						"dataLayoutColumns": [
+							{
+								"columnSize": 12,
+								"fieldNames": [
+									"Select78186970"
+								]
+							}
+						]
+					},
+					{
+						"dataLayoutColumns": [
+							{
+								"columnSize": 12,
+								"fieldNames": [
+									"Select23746521"
+								]
+							}
+						]
+					},
+					{
+						"dataLayoutColumns": [
+							{
+								"columnSize": 12,
+								"fieldNames": [
+									"Checkbox48797627"
+								]
+							}
+						]
+					}
+				],
+				"description": {
+					"en_US": "Description"
+				},
+				"title": {
+					"en_US": "Page"
+				}
+			}
+		],
+		"dataRules": [
+		],
+		"description": {
+		},
+		"name": {
+			"en_US": "LEARN-COURSE"
+		},
+		"paginationMode": "single-page"
+	},
+	"defaultLanguageId": "en_US",
+	"description": {
+	},
+	"name": {
+		"en_US": "LEARN-COURSE"
+	},
+	"storageType": "default"
+}
