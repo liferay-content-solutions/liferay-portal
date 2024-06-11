@@ -6,6 +6,60 @@
 	"dataDefinitionFields": [
 		{
 			"customProperties": {
+				"confirmationErrorMessage": {
+					"en_US": ""
+				},
+				"confirmationLabel": {
+					"en_US": ""
+				},
+				"dataType": "string",
+				"direction": [
+					"vertical"
+				],
+				"displayStyle": "singleline",
+				"fieldNamespace": "",
+				"fieldReference": "course",
+				"hideField": false,
+				"labelAtStructureLevel": true,
+				"nativeField": false,
+				"objectFieldName": "",
+				"options": {
+				},
+				"placeholder": {
+					"en_US": ""
+				},
+				"requireConfirmation": false,
+				"requiredErrorMessage": {
+					"en_US": ""
+				},
+				"tooltip": {
+					"en_US": ""
+				},
+				"visibilityExpression": ""
+			},
+			"defaultValue": {
+				"en_US": ""
+			},
+			"fieldType": "text",
+			"indexType": "keyword",
+			"indexable": true,
+			"label": {
+				"en_US": "Course"
+			},
+			"localizable": true,
+			"name": "course",
+			"nestedDataDefinitionFields": [
+			],
+			"readOnly": false,
+			"repeatable": false,
+			"required": true,
+			"showLabel": true,
+			"tip": {
+				"en_US": ""
+			}
+		},
+		{
+			"customProperties": {
 				"dataType": "string",
 				"editorConfig": null,
 				"fieldNamespace": "null",
@@ -34,19 +88,13 @@
 		},
 		{
 			"customProperties": {
-				"autocomplete": false,
 				"confirmationErrorMessage": {
 					"en_US": ""
 				},
 				"confirmationLabel": {
 					"en_US": ""
 				},
-				"dataSourceType": "",
 				"dataType": "string",
-				"ddmDataProviderInstanceId": [
-				],
-				"ddmDataProviderInstanceOutput": [
-				],
 				"direction": [
 				],
 				"displayStyle": "multiline",
@@ -80,7 +128,7 @@
 			],
 			"readOnly": false,
 			"repeatable": false,
-			"required": false,
+			"required": true,
 			"showLabel": true,
 			"tip": {
 				"en_US": ""
@@ -130,7 +178,7 @@
 				"en_US": "Time to Complete (in minutes)"
 			},
 			"localizable": true,
-			"name": "Text82072267",
+			"name": "timeToComplete",
 			"nestedDataDefinitionFields": [
 			],
 			"readOnly": false,
@@ -153,7 +201,7 @@
 				"ddmDataProviderInstanceOutput": [
 				],
 				"fieldNamespace": "",
-				"fieldReference": "personas",
+				"fieldReference": "selectPersona",
 				"labelAtStructureLevel": true,
 				"multiple": true,
 				"nativeField": false,
@@ -162,42 +210,42 @@
 						{
 							"label": "Practitioner",
 							"reference": "pacticioner",
-							"value": "Option67573746"
+							"value": "pacticioner"
 						},
 						{
 							"label": "Sales",
 							"reference": "sales",
-							"value": "Option37843532"
+							"value": "sales"
 						},
 						{
 							"label": "Developer",
 							"reference": "developer",
-							"value": "Option68525200"
+							"value": "developer"
 						},
 						{
 							"label": "Architect",
 							"reference": "architect",
-							"value": "Option12124726"
+							"value": "architect"
 						},
 						{
 							"label": "Cloud Architect",
 							"reference": "cloudArchitect",
-							"value": "Option69830994"
+							"value": "cloudArchitect"
 						},
 						{
 							"label": "Administrator",
 							"reference": "administrator",
-							"value": "Option50996154"
+							"value": "administrator"
 						},
 						{
 							"label": "Internal employees",
 							"reference": "internalEmployees",
-							"value": "Option54010146"
+							"value": "internalEmployees"
 						},
 						{
 							"label": "Partners",
 							"reference": "partners",
-							"value": "Option04861517"
+							"value": "partners"
 						}
 					]
 				},
@@ -212,7 +260,7 @@
 				"en_US": "Personas"
 			},
 			"localizable": true,
-			"name": "Select78186970",
+			"name": "selectPersona",
 			"nestedDataDefinitionFields": [
 			],
 			"readOnly": false,
@@ -235,7 +283,7 @@
 				"ddmDataProviderInstanceOutput": [
 				],
 				"fieldNamespace": "",
-				"fieldReference": "Select23746521",
+				"fieldReference": "selectExpertise",
 				"labelAtStructureLevel": true,
 				"multiple": false,
 				"nativeField": false,
@@ -244,17 +292,17 @@
 						{
 							"label": "Beginner",
 							"reference": "beginner",
-							"value": "Option67573746"
+							"value": "beginner"
 						},
 						{
 							"label": "Intermediate",
 							"reference": "intermediate",
-							"value": "Option38756196"
+							"value": "intermediate"
 						},
 						{
 							"label": "Expert",
 							"reference": "expert",
-							"value": "Option95646231"
+							"value": "expert"
 						}
 					]
 				},
@@ -269,7 +317,7 @@
 				"en_US": "Expertise"
 			},
 			"localizable": true,
-			"name": "Select23746521",
+			"name": "selectExpertise",
 			"nestedDataDefinitionFields": [
 			],
 			"readOnly": false,
@@ -284,7 +332,7 @@
 			"customProperties": {
 				"dataType": "boolean",
 				"fieldNamespace": "",
-				"fieldReference": "Checkbox48797627",
+				"fieldReference": "isGated",
 				"labelAtStructureLevel": true,
 				"options": {
 				},
@@ -300,7 +348,7 @@
 				"en_US": "Is Gated"
 			},
 			"localizable": true,
-			"name": "Checkbox48797627",
+			"name": "isGated",
 			"nestedDataDefinitionFields": [
 			],
 			"readOnly": false,
@@ -319,6 +367,16 @@
 		"dataLayoutPages": [
 			{
 				"dataLayoutRows": [
+					{
+						"dataLayoutColumns": [
+							{
+								"columnSize": 12,
+								"fieldNames": [
+									"course"
+								]
+							}
+						]
+					},
 					{
 						"dataLayoutColumns": [
 							{
@@ -344,7 +402,7 @@
 							{
 								"columnSize": 12,
 								"fieldNames": [
-									"Text82072267"
+									"timeToComplete"
 								]
 							}
 						]
@@ -354,7 +412,7 @@
 							{
 								"columnSize": 12,
 								"fieldNames": [
-									"Select78186970"
+									"selectPersona"
 								]
 							}
 						]
@@ -364,7 +422,7 @@
 							{
 								"columnSize": 12,
 								"fieldNames": [
-									"Select23746521"
+									"selectExpertise"
 								]
 							}
 						]
@@ -374,7 +432,7 @@
 							{
 								"columnSize": 12,
 								"fieldNames": [
-									"Checkbox48797627"
+									"isGated"
 								]
 							}
 						]
