@@ -535,17 +535,17 @@ pre[class*='language-'] {
 		background: var(--color-neutral-0, #fff);
 		border: 1px solid var(--color-brand-primary, #0b5fff);
 		border-radius: var(--border-radius-lg);
+		display: -webkit-box;
 		gap: 0.25rem;
-		padding: 0.25rem 0.75rem;
-		width: 90px;
 		height: 40px;
-        overflow: hidden;
-        white-space: normal;
-        text-overflow: ellipsis;
-        word-wrap: break-word;
-        display: -webkit-box;
-        -webkit-box-orient: vertical;
-        -webkit-line-clamp: 3;
+		overflow: hidden;
+		padding: 0.25rem 0.75rem;
+		text-overflow: ellipsis;
+		white-space: normal;
+		width: 90px;
+		word-wrap: break-word;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 3;
 
 		&:hover {
 			border-color: var(--color-action-primary-active, #004ad7);
@@ -558,7 +558,7 @@ pre[class*='language-'] {
 .learn-article-content,
 .learn-article-nav-container .component-html,
 .lfr-layout-structure-item-basic-component-html {
-	width: 100%;
+	width: 12%;
 }
 
 .learn-article-nav {
